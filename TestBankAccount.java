@@ -2,8 +2,8 @@ public class TestBankAccount {
     public static void main(String[] args) {
 
         // creating two bank accounts
-        BankAccount savingsAcc = new BankAccount(BankAccount.AccountType.SAVINGS, "SAV001", 10000);
-        BankAccount currentAcc = new BankAccount(BankAccount.AccountType.CURRENT, "CUR001", 7000);
+        BankAccount savingsAcc = new BankAccount(BankAccount.AccountType.SAVINGS, "SAVING001", 10000);
+        BankAccount currentAcc = new BankAccount(BankAccount.AccountType.CURRENT, "CURRENT001", 7000);
 
         System.out.println("Initial Account Details");
         System.out.println("Savings Account ID: " + savingsAcc.getAccountID());
